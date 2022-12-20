@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "bseadmob",
+    "slug": "bseadmob",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.akhzarna.bseadmob"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f7d3cf2d-ad38-4946-a79b-37767e653a22"
+      }
+    }
+  }
+}
+
+  // "react-native-google-mobile-ads": {
+  //   "android_app_id": "ca-app-pub-7284221130975332~7755297595"
+  // }
